@@ -7,11 +7,12 @@ const btnReset = document.querySelector('#newPlaying')
 console.log(randomNumber)
 let xAttempts = 1;
 
+
 //function
 function handleClick(event){
     event.preventDefault()
     randomNumber;
-
+    document.querySelector("#msgnError").innerText = "";
     let getNumber = document.querySelector("#getNumber");
 
     if(Number(getNumber.value) === randomNumber){
@@ -22,6 +23,7 @@ function handleClick(event){
         .querySelector('.screen2 h2')
         .innerText = `acertou em ${xAttempts} tentativas`
     }else{
+        getNumber.classList.add(".borderRed");
         let msgnError = document.querySelector("#msgnError")
         document.querySelector("#msgnError").innerText = "tente novamenter";
 
