@@ -49,12 +49,13 @@ main{
         margin:  4.8rem auto;
 
         input{
+           display: flex;
+           padding: 17px;
            background: #DCE2E9;
            width: 45%;
            color: black;
            border: none;
            border-radius: 6px 0 0 6px;
-
         }
 
         button{
