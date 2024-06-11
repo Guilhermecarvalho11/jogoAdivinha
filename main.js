@@ -21,6 +21,10 @@ function handleClick(event){
         document
         .querySelector('.screen2 h2')
         .innerText = `acertou em ${xAttempts} tentativas`
+    }else{
+        let msgnError = document.querySelector("#msgnError")
+        document.querySelector("#msgnError").innerText = "tente novamenter";
+
     }
     getNumber.value = "";
     xAttempts++;

@@ -58,6 +58,10 @@ main{
            border-radius: 6px 0 0 6px;
         }
 
+        .borderRed{
+            border: 1px solid red;
+        }
+
         button{
             background: #7879F1;
             width: 55%;
