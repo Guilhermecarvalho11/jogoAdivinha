@@ -25,7 +25,7 @@ function handleClick(event){
     }else{
         getNumber.classList.add(".borderRed");
         let msgnError = document.querySelector("#msgnError")
-        document.querySelector("#msgnError").innerText = "tente novamenter";
+        document.querySelector("#msgnError").innerText = "tente novamente";
 
     }
     getNumber.value = "";
